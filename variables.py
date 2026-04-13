@@ -27,3 +27,10 @@ else:
     sueldo_neto = sueldo_bruto - descuento_tss - descuento_isr - otros_descuentos + bonificacion
 
     #Resultados
+    print("\n------ RESULTADOS ------")
+    print("Retencion ISR:", descuento_isr)
+    print("Otros descuentos:", otros_descuentos)
+    print("Bonificacion:", bonificacion)
+    print("Sueldo Neto:", sueldo_neto)
+    print("Sueldo Bruto: RD$", sueldo_bruto)
+    print("Descuento Seguridad Social:", descuento_tss)
