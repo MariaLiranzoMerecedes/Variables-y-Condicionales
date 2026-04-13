@@ -26,4 +26,4 @@ else:
 
     sueldo_neto = sueldo_bruto - descuento_tss - descuento_isr - otros_descuentos + bonificacion
 
-    
+    #Resultados
