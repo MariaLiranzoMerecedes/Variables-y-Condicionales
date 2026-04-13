@@ -23,3 +23,7 @@ else:
     descuento_isr = sueldo_bruto * ISR
     bonificacion = sueldo_bruto * BONIFICACION 
     #er commit
+
+    sueldo_neto = sueldo_bruto - descuento_tss - descuento_isr - otros_descuentos + bonificacion
+
+    
